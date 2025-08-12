@@ -4,6 +4,8 @@ public class Variable {
         int y=2;
         int z;
         z=x/y;
+        // or    System.out.println(x/y);
         System.out.println(z);
     }
 }
+
