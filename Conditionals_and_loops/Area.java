@@ -6,10 +6,10 @@ public class Area {
     Float l=sc.nextFloat();
     Float b=sc.nextFloat();
     Float area=l*b;
-    Float peri=2*(l+b);
+    Float perimeter=2*(l+b);
     if(area>peri){
         System.out.println("AREA IS GREATER");
-    } else if (peri>area) {
+    } else if (perimeter>area) {
         System.out.println("Perimeter is larger");
     }
     else {
@@ -18,3 +18,4 @@ public class Area {
 
     }
 }
+
