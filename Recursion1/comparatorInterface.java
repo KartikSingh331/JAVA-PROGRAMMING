@@ -10,7 +10,7 @@ public class comparatorInterface {
                 if (i % 10 > j % 10) return 1;
                 else return -1;
             }
-        };
+        }
         List <Integer> nums=new ArrayList<>();
         nums.add(41);
         nums.add(42);
