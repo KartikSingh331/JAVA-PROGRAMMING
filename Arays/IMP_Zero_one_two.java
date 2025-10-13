@@ -1,7 +1,7 @@
 package Arays;
 public class IMP_Zero_one_two {
     public static void main(String[] args) {
-        int[] arr = {0, 2, 0, 1, 2, 0, 1, 1, 0, 1, 0, 2, 0};
+        int[] arr = {0, 2, 0, 1, 2, 0, 1, 1, 0, 1, 0, 2, 0,2,0,0};
         int n = arr.length;
 //        int noz=0; int noo=0;
 //        for (int i=0;i<n;i++){
@@ -47,4 +47,5 @@ public class IMP_Zero_one_two {
         }
 
     }
+
 
