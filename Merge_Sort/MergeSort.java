@@ -1,6 +1,7 @@
 package MergeSort;
 import java.util.*;
 public class MergeSort {
+    //Second call
     public static void mergesorting(int[] a,int[] b,int[] arr) {
         int i=0,j=0,k=0;
         while (i<a.length && j<b.length){
@@ -10,9 +11,9 @@ public class MergeSort {
         while (j<b.length)  arr[k++]=b[j++];
         while (i<a.length)  arr[k++]=a[i++];
     }
-
-
-    public static void mergesort(int[] arr){
+  
+    // First call 
+ public static void mergesort(int[] arr){
 
         int n=arr.length;
         if (n==1) return;
@@ -43,3 +44,4 @@ public class MergeSort {
         }
     }
 }
+
