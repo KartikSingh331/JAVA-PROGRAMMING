@@ -1,6 +1,7 @@
 package Pattern;
 import java.util.Scanner;
 public class Advance_starplus {
+    
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         int m= sc.nextInt();
@@ -18,3 +19,4 @@ public class Advance_starplus {
         }
     }
 }
+
