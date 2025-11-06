@@ -1,6 +1,6 @@
 package Arays;
 import java.util.ArrayList;
-public class basics_of_arraylist {
+public class  basics_of_arraylist {
     public static void main(String[] args) {
 ArrayList<Integer> arr=new ArrayList<>(6);
 arr.add(0,10);
