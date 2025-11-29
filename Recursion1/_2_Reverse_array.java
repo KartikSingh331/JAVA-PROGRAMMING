@@ -10,9 +10,10 @@ for (int i=0;i<n/2;i++){
     arr[i]=arr[j];
     arr[j]=temp;
 }
-        System.out.println("Reverse of array is :");
+    System.out.println("Reverse of array is :");
 for (int i=0;i<n;i++){
     System.out.print(arr[i]+" ");
 }
     }
 }
+
