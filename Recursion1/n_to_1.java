@@ -4,7 +4,7 @@ public class n_to_1 {
     public static void toone(int n){
         if (n==0) return ; //base value
         System.out.println(n); //work
-        toone(n-1); //call
+        toone(n-1); // call
     }
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
@@ -13,3 +13,4 @@ public class n_to_1 {
         toone(n);
     }
 }
+
