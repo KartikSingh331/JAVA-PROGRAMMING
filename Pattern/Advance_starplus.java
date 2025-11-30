@@ -1,3 +1,4 @@
+
 package Pattern;
 import java.util.Scanner;
 public class Advance_starplus {
@@ -20,5 +21,6 @@ public class Advance_starplus {
         }
     }
 }
+
 
 
