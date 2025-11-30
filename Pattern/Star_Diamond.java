@@ -10,7 +10,7 @@ public class Star_Diamond {
             }
             for (int j=1;j<=2*i-1;j++){
                 System.out.print("*"+" ");
-            }
+        }
             System.out.println();
         }
         for (int i=m-1;i>=1;i--){
@@ -24,3 +24,4 @@ public class Star_Diamond {
         }
     }
 }
+
