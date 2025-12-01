@@ -9,7 +9,8 @@ public class Ques_lowerbound {
         int target=55;
         while (low<=high){
             int mid=low+(high-low)/2;
-            if (arr[mid]>=target){
+            if (arr[mid]>=target)
+            {
                 lb=mid;
                 high=mid-1;
             }
@@ -18,3 +19,4 @@ public class Ques_lowerbound {
         System.out.println(lb);
     }
 }
+
