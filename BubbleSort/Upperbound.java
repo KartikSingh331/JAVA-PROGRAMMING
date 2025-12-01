@@ -13,9 +13,11 @@ public class Upperbound {
             if (arr[mid]>target){
                 lb=mid;
                 high=mid-1;
+                
             }
             else low=mid+1;
         }
         System.out.println(lb);
     }
 }
+
