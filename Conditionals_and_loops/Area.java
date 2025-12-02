@@ -12,10 +12,12 @@ public class Area {
     } else if (perimeter>area) {
         System.out.println("Perimeter is larger");
     }
-    else {
+    else
+    {
         System.out.println("Area and perimeter both are equal");
     }
 
     }
 }
+
 
