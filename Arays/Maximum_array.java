@@ -13,3 +13,4 @@ public class Maximum_array {
         System.out.println(mx);
     }
 }
+
