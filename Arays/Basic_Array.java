@@ -4,7 +4,7 @@ public class Basic_Array {
     public static void main(String[] args) {
         int arr[] = new int[5];
         arr[0] = 83;
-        arr[1] = 74;
+        arr[1] = 74; 
         arr[2] = 39;
         arr[3] = 44;
         arr[4] = 38;
