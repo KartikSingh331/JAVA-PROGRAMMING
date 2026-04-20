@@ -1,5 +1,4 @@
 package Arays;
-
 import java.util.Arrays;
 
 public class Copy_of_Array {
